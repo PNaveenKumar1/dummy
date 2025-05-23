@@ -1,17 +1,18 @@
-# Learning to Forecast under External Influence Using Temporal Knowledge Graphs: Datasets, Methods and Benchmarks
+# Learning to Forecast under External Influence Using Temporal Knowledge Graphs: Datasets, Methods, and Benchmarks
 
 ## Overview
-This project addresses the challenge of forecasting stock market trends by constructing a **Temporally-Aware Heterogeneous Knowledge Graph (SmKG)**. SmKG captures inter-stock relationships, financial statements, analyst sentiments, corporate events, and macroeconomic factors from stock assets listed on NASDAQ and NSE markets. By leveraging time-aware embeddings, this project ranks stock assets based on their potential return on investment over various holding periods.
+
+This project addresses the challenge of forecasting stock market trends by constructing a **Temporally-Aware Heterogeneous Knowledge Graph (STOCKnowledge)**. STOCKnowledge captures inter-stock relationships, financial statements, analyst sentiments, corporate events, and macroeconomic factors from stock assets listed on the NASDAQ and NSE markets. By leveraging time-aware embeddings, this project ranks stock assets based on their potential return on investment over various holding periods.
 
 ## Data Sources
 
-The datasets used in this project include :
-- NASDAQ100, S&P500 (from Yahoo Finance)
+The datasets used in this project include:
+- NASDAQ100 and S&P500 (from Yahoo Finance)
 - NIFTY500 (from NSE)
 
 ## Requirements
 
-To run this project, you’ll need to install the required dependencies. These can be found in the `requirements.txt` file.
+To run this project, you’ll need to install the required dependencies listed in the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
