@@ -24,6 +24,14 @@ The `requirements.txt` file includes essential Python libraries.
 
 You can run the project in two ways, depending on your requirements
 
+dataset index names: 
+
+NIFTY - nifty500
+
+NASDAQ - nasdaq100
+
+S&P - sp500
+
 ### Approach 1: Without Temporal Point Process
 1. Navigate to the Phase-Stock-KG folder, which contains the main.py file along with model_imports.py and all necessary model files in the models folder.
 2. The main parameters include ENCODER_LAYER, which can be set to either "transf" for transfomer or "lstm" for generating sequential embeddings.
@@ -46,12 +54,6 @@ You can run the project in two ways, depending on your requirements
 - --tpp_batch_size : Sets the batch size for training the Temporal Point Process (TPP) model in a phased manner.
 
 - --INDEX : Indicates the dataset to be used. Replace nasdaq100 with your desired index or dataset name.
-
-NIFTY - nifty500
-
-NASDAQ - nasdaq100
-
-S&P - sp500
 
 - --D_MODEL : Sets the model dimension for sequential embeddings.
 
