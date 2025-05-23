@@ -6,8 +6,8 @@ This project addresses the challenge of forecasting stock market trends by const
 ## Data Sources
 
 The datasets used in this project include :
-- NASDAQ100, S&P500 (from Yahoo Finance)
-- NIFTY500 (from NSE)
+- NASDAQ100, S&P500 
+- NIFTY500 
 
 ## Requirements
 
@@ -57,11 +57,11 @@ S&P - sp500
 
 - --D_MODEL : Sets the model dimension for sequential embeddings.
 
-- --REL_EMB : Specifies the size of the relation embeddings, 16- nifty500, 128 - nasdaq100, sp500
+- --REL_EMB : Specifies the size of the relation embeddings. nifty500 - 16, nasdaq100, sp500 - 128
 
 - --TPP_EMB : Sets the embedding size for each node and relation in the TPP.
 
-- --ENCODER_LAYER transf: Uses a Transformer-based encoder layer.
+- --ENCODER_LAYER : Uses a Transformer-based encoder layer.
 
 ## Data Preparation
 
