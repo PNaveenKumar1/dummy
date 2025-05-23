@@ -48,7 +48,9 @@ You can run the project in two ways, depending on your requirements
 - --INDEX : Indicates the dataset to be used. Replace nasdaq100 with your desired index or dataset name.
 
 NIFTY - nifty500
+
 NASDAQ - nasdaq100
+
 S&P - sp500
 
 - --D_MODEL : Sets the model dimension for sequential embeddings.
