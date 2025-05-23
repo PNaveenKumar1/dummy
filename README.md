@@ -11,6 +11,8 @@ The datasets used in this project include :
 
 ## Requirements
 
+python version - 3.9.19
+
 To run this project, you’ll need to install the required dependencies. These can be found in the `requirements.txt` file.
 
 ```bash
@@ -26,11 +28,11 @@ You can run the project in two ways, depending on your requirements
 1. Navigate to the Phase-Stock-KG folder, which contains the main.py file along with model_imports.py and all necessary model files in the models folder.
 2. The main parameters include ENCODER_LAYER, which can be set to either "transf" for transfomer or "lstm" for generating sequential embeddings.
 3. For the Graph Convolutions, USE_GRAPH parameter set to hgat, which includes the HEAT Convolution
-4. Set the INDEX according to the dataset you want to run: nasdaq100, sp500, or nifty500
+4. Set the INDEX in main.py according to the dataset you want to run: nasdaq100, sp500, or nifty500
 4. Ensure the dataset is prepared and placed in the required directory.
 5. Run the command:
    ```bash
-   python3 main.py --INDEX nasdaq100
+   python3 main.py 
    ```
 6. All remaining parameters are defined in the model_imports.py file.
 
